@@ -1,0 +1,115 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        background: #020A18;
+        font-family: Open Sans;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    .header {
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+    }
+    
+    .center {
+        padding-left: calc(50% - 960px);
+        padding-right: calc(50% - 960px);
+    }
+    
+    .header__link {
+        color: rgb(255, 255, 255);
+        font-family: Open Sans;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 22px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+    
+    .header-padding {
+        padding-top: 39px;
+        padding-bottom: 39px;
+    }
+    
+    .top__matging {
+        margin-top: 160px;
+        margin-bottom: 197px;
+    }
+    
+    .top {
+        display: flex;
+        justify-content: center;
+        gap: 126px;
+    }
+    
+    .top-left__subtitle {
+        margin-bottom: 10px;
+        color: rgb(58, 104, 184);
+        font-family: Open Sans;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 160%;
+        letter-spacing: 0%;
+        text-align: left;
+        text-transform: uppercase;
+    }
+    
+    .top-left__title {
+        color: rgb(255, 255, 255);
+        font-family: Open Sans;
+        font-size: 55px;
+        font-weight: 800;
+        line-height: 130%;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-bottom: 40px;
+    }
+    
+    .top-left__text {
+        color: rgb(255, 255, 255);
+        font-family: Open Sans;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 160%;
+        letter-spacing: 0%;
+        text-align: left;
+        /* #FFFFFF */
+        opacity: 0.7;
+        margin-bottom: 50px;
+    }
+    
+    .top-left__btn {
+        display: flex;
+        gap: 20px;
+    }
+    
+    .button {
+        border-radius: 5px;
+        /* #3A68B8 */
+        background: rgb(58, 104, 184);
+        color: rgb(255, 255, 255);
+        font-family: Open Sans;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 27px;
+        letter-spacing: 0%;
+        text-align: left;
+        padding: 15px 30px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .logo-group {
+        margin-bottom: 99px;
+        display: flex;
+        gap: 71px;
+        justify-content: center;
+    }
