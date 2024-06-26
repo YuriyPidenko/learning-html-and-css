@@ -1,0 +1,199 @@
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .center {
+            padding-left: calc(50% - 570px);
+            padding-right: calc(50% - 570px);
+        }
+        
+        a {
+            text-decoration: none;
+        }
+        
+        body {
+            font-family: Lato;
+        }
+        
+        .flex {
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .header {
+            background-color: rgb(34, 34, 34);
+            padding: 18px;
+        }
+        
+        .logo-link {
+            margin-right: 41px;
+        }
+        
+        .nav {
+            margin-top: 9px;
+        }
+        
+        .nav-link {
+            margin-left: 33px;
+        }
+        
+        .cover-center {
+            padding-left: calc(50% - 800px);
+            padding-right: calc(50% - 800px);
+        }
+        
+        .cover-right__title {
+            font-size: 32px;
+            font-weight: 700;
+            text-align: left;
+            border-left: 12px solid rgb(241, 109, 127);
+            padding-left: 16px;
+        }
+        
+        .cover-flex {
+            display: flex;
+            align-items: center;
+        }
+        
+        .cover-rignt {
+            width: 50%;
+        }
+        
+        .cover-rignt {
+            margin-left: 64px;
+        }
+        
+        .cover {
+            background-color: rgb(241, 228, 230);
+            margin-bottom: 63px;
+        }
+        /*         
+        .cover-right__img {
+            height: auto;
+            width: 100%;
+            max-width: 800.58px;
+        } */
+        
+        .content-flex {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 30px;
+        }
+        
+        .content__text {
+            color: rgb(255, 255, 255);
+            font-size: 16px;
+            font-weight: 400;
+            text-align: center;
+        }
+        
+        .content__decs {
+            color: rgb(241, 109, 127);
+            font-size: 24px;
+            font-weight: 700;
+            text-align: center;
+        }
+        
+        .content__elem {
+            position: relative;
+        }
+        
+        .content__bloc {
+            position: absolute;
+            left: 103px;
+            right: 103px;
+            top: 105px;
+            bottom: 105px;
+        }
+        
+        .content__bloc2 {
+            position: absolute;
+            top: 65px;
+            bottom: 65px;
+            right: 480px;
+            left: 480px;
+        }
+        
+        .content {
+            margin-bottom: 69px;
+        }
+        
+        .cards-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+        }
+        
+        .cards-header__title {
+            color: rgb(34, 34, 34);
+            font-size: 30px;
+            font-weight: 400;
+            line-height: 36px;
+            text-align: center;
+        }
+        
+        .cards-header__text {
+            color: rgb(159, 159, 159);
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 17px;
+            text-align: center;
+        }
+        
+        .cards-header {
+            margin-bottom: 48px;
+        }
+        
+        .cards-items {
+            background-color: rgb(248, 248, 248);
+        }
+        
+        .cards-items__pading {
+            padding: 24px 28px 20px 16px;
+        }
+        
+        .cards-itens__subtitle {
+            color: rgb(0, 0, 0);
+            font-size: 13px;
+            font-weight: 700;
+            line-height: 16px;
+            text-align: left;
+        }
+        
+        .cards-items__text-margin {
+            margin-top: 13px;
+            margin-bottom: 18px;
+        }
+        
+        .cart-items__text-price {
+            color: rgb(241, 109, 127);
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 19px;
+            text-align: left;
+        }
+        
+        .cards-btn {
+            margin-top: 48px;
+            margin-bottom: 95px;
+            text-align: center;
+        }
+        
+        .cards-btn__link {
+            color: rgb(242, 99, 118);
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 19px;
+            letter-spacing: 0%;
+            border: 1px solid rgb(255, 106, 106);
+            padding: 14px 38px;
+        }
+        
+        .cards-btn__link:hover {
+            color: #fff;
+            border: 1px solid rgb(255, 106, 106);
+            background-color: rgb(255, 106, 106);
+            transition: 0.5s;
+        }
