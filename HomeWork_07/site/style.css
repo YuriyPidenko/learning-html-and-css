@@ -1,0 +1,353 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Lato;
+}
+
+a {
+    text-decoration: none;
+}
+
+.center {
+    padding-left: calc(50% - 187px);
+    padding-right: calc(50% - 187px);
+}
+
+.display-none {
+    display: none;
+}
+
+.header {
+    background-color: rgb(34, 34, 34);
+    padding: 18px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav {
+    margin-top: 9px;
+}
+
+.logo-link {
+    margin-right: 41px;
+}
+
+.cover {
+    background-color: rgb(241, 228, 230);
+    ;
+}
+
+.cover-right__title {
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+    border-left: 12px solid rgb(241, 109, 127);
+    padding-left: 15px;
+}
+
+.cover-right {
+    padding: 149px 56px;
+}
+
+.cover {
+    margin-bottom: 64px;
+}
+
+.content__elem {
+    position: relative;
+}
+
+.content__bloc {
+    position: absolute;
+    left: 103px;
+    right: 103px;
+    top: 105px;
+    bottom: 105px;
+}
+
+.content__text {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.content__decs {
+    color: rgb(241, 109, 127);
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.content__elem {
+    margin-bottom: 30px;
+}
+
+.img__container {
+    width: 343px;
+    height: 247px;
+    padding-left: 15px;
+}
+
+.img__container2 {
+    width: 343.26px;
+    height: 111px;
+    padding-left: 15px;
+}
+
+.content__bloc2 {
+    position: absolute;
+    top: 30px;
+    bottom: 30px;
+    right: 92px;
+    left: 92px;
+}
+
+.content {
+    margin-bottom: 64px;
+}
+
+.cards-header__title {
+    color: rgb(34, 34, 34);
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+}
+
+.cards-header__text {
+    color: rgb(159, 159, 159);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: center;
+    margin-bottom: 65px;
+}
+
+.cards-items {
+    /* background-color: rgb(248, 248, 248); */
+    margin-bottom: 16px;
+    margin-left: 7.5px;
+    line-height: 0;
+}
+
+.cards-items__pading {
+    background-color: rgb(248, 248, 248);
+    padding: 25px 35px 16px 12px;
+    width: 313.87px;
+    height: 116.33px;
+}
+
+.cards-itens__subtitle {
+    color: rgb(0, 0, 0);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+}
+
+.cards-header__text {
+    color: rgb(93, 93, 93);
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 17px;
+    text-align: left;
+}
+
+.cards-items__text-margin {
+    margin-top: 12px;
+    margin-bottom: 17px;
+}
+
+.cart-items__text-price {
+    color: rgb(241, 109, 127);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
+}
+
+.cards-btn {
+    padding-top: 20px;
+    margin-bottom: 90px;
+    text-align: center;
+}
+
+.cards-btn__link {
+    border: 1px solid rgb(242, 99, 118);
+    padding: 15px 39px;
+    color: rgb(242, 99, 118);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+.cards-btn__link:hover {
+    color: #fff;
+    border: 1px solid rgb(255, 106, 106);
+    background-color: rgb(255, 106, 106);
+    transition: 0.5s;
+}
+
+.cards-grid {
+    margin-bottom: 40px;
+}
+
+@media (min-width: 768px) {
+    .center {
+        padding-left: calc(50% - 384px);
+        padding-right: calc(50% - 384px);
+    }
+    .display-none {
+        display: inline-block;
+    }
+    .logo-link {
+        margin-right: 41px;
+    }
+    .nav {
+        margin-top: 4px;
+    }
+    .nav-link {
+        margin-left: 25px;
+    }
+    .cover-right__img {
+        width: 386px;
+        height: 368px;
+    }
+    .cover-flex {
+        display: flex;
+        align-items: center;
+    }
+    .cover-right__title {
+        font-size: 24px;
+        font-weight: 700;
+    }
+    .cover-right__size {
+        font-size: 44px;
+    }
+    .cover-right {
+        padding: 0px;
+    }
+    .img__container {
+        width: 231px;
+        height: 167px
+    }
+    .img__container {
+        width: 231px;
+        height: 167px;
+        padding-left: 10px;
+    }
+    .img__container2 {
+        width: 748px;
+        height: 116px;
+        padding-left: 10px;
+    }
+    .content-flex {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 18px;
+    }
+    .content__elem {
+        position: relative;
+    }
+    .content__bloc {
+        position: absolute;
+        left: 41px;
+        right: 14px;
+        top: 59px;
+        bottom: 59px;
+    }
+    .content__bloc2 {
+        position: absolute;
+        top: 33px;
+        bottom: 33px;
+        right: 271px;
+        left: 286px;
+    }
+    .content__elem {
+        margin-bottom: 0px;
+    }
+    .content {
+        margin-bottom: 109px;
+    }
+    .cards-header__text {
+        text-align: center;
+    }
+    .cards-header__text {
+        margin-bottom: 72px;
+    }
+    .cards-grid {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-left: 10px;
+        margin-bottom: 22px;
+    }
+    .cards-header__text {
+        margin-bottom: 18px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .center {
+        padding-left: calc(50% - 570px);
+        padding-right: calc(50% - 570px);
+    }
+    .cover-right__img {
+        width: 800.58px;
+        height: 764px;
+    }
+    .cover-right__size {
+        font-size: 48px;
+    }
+    .cover-right__title {
+        font-size: 32px;
+    }
+    .cover {
+        margin-bottom: 65px;
+    }
+    .img__container {
+        width: 360px;
+        height: 260px;
+        padding-left: 0;
+    }
+    .img__container2 {
+        width: 1140px;
+        height: 180px;
+        padding-left: 0px;
+    }
+    .content-flex {
+        gap: 30px;
+    }
+    .content__bloc {
+        left: 103px;
+        right: 103px;
+        top: 105px;
+        bottom: 105px;
+    }
+    .content__bloc2 {
+        top: 65px;
+        bottom: 65px;
+        right: 480px;
+        left: 480px;
+    }
+    .cards {
+        margin-bottom: 96px;
+    }
+    .cards-header__text {
+        margin-bottom: 48px;
+    }
+    .cards-header__text {
+        margin-bottom: 18px;
+    }
+    .cards-btn {
+        padding-top: 48px;
+    }
+}
